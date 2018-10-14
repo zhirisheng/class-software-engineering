@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/10/14 10:40:01。
+     1>项目“D:\文件\软件工程\2\firstDemo\firstDemo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\firstDemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vc++2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\vc++2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\文件\软件工程\2\firstDemo\Release\firstDemo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\firstDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\文件\软件工程\2\firstDemo\Release\firstDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\文件\软件工程\2\firstDemo\Release\firstDemo.lib" /MACHINE:X86 Release\main.obj
+            正在创建库 D:\文件\软件工程\2\firstDemo\Release\firstDemo.lib 和对象 D:\文件\软件工程\2\firstDemo\Release\firstDemo.exp
+         正在生成代码
+         已完成代码的生成
+         firstDemo.vcxproj -> D:\文件\软件工程\2\firstDemo\Release\firstDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\文件\软件工程\2\firstDemo\Release\firstDemo.exe;#1" /manifest Release\firstDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\firstDemo.unsuccessfulbuild”。
+         正在对“Release\firstDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\文件\软件工程\2\firstDemo\firstDemo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.93
